@@ -19,5 +19,8 @@
   "homepage": "https://github.com/kmorisoto/scraping-example.com#readme",
   "dependencies": {
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0"
   }
 }
