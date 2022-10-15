@@ -1,0 +1,20 @@
+{
+  "name": "scraping-example.com",
+  "version": "1.0.0",
+  "description": "スクレイピングを試すやつ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmorisoto/scraping-example.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmorisoto/scraping-example.com/issues"
+  },
+  "homepage": "https://github.com/kmorisoto/scraping-example.com#readme"
+}
