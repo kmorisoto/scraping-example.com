@@ -1,28 +1,16 @@
-import {AxiosError, AxiosResponse} from "axios";
-
 const axios = require('axios');
+const cheerio = require('cheerio');
 
-// Make a request for a user with a given ID
-axios.get('https://example.com')
-    .then(function (response: AxiosResponse) {
-        // handle success
-        console.log(response);
-    })
-    .catch(function (error: AxiosError) {
-        // handle error
-        console.log(error);
-    })
-    .then(function () {
-        // always executed
-    });
-
-async function main() {
-    try {
-        const response = await axios.get('https://example.com');
-        console.log(response);
-    } catch (error) {
-        console.error(error);
-    }
+const main = async () => {
+    const response = await axios.get('https://example.com');
+    const $ = cheerio.load(response.data);
+    console.log($('title').text());
 }
-
 main();
+
+const a = (data: string) => {
+    console.log(data);
+    const $ = cheerio.load(data);
+    console.log($);
+
+}
