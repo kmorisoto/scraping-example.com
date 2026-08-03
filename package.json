@@ -22,7 +22,7 @@
     "axios": "^1.1.2",
     "cheerio": "^1.0.0-rc.12",
     "emoji-regex": "^10.2.0",
-    "nanoid": "^5.0.0",
+    "nanoid": "^6.0.0",
     "typescript": "^6.0.0"
   },
   "devDependencies": {
